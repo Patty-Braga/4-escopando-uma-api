@@ -9,5 +9,5 @@ app.use(cors());
 app.use(rotas);
 
 
-const port = 3000
+const port = 3000;
 app.listen(port, () => console.log(`Servidor on na porta: ${port} 🚀`))
